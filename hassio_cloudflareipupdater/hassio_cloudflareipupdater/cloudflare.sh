@@ -20,8 +20,8 @@ if [[ -n $error ]]; then
     exit 1
 fi
 
-# PROXY defaults to true
-PROXY=${PROXY:-true}
+# PROXY defaults to false
+PROXY=${PROXY:-false}
 
 # TTL defaults to 1 (automatic), and is validated
 TTL=${TTL:-1}
